@@ -1,70 +1,58 @@
-<h1 class="no-toc">Tutorial: Tour of Heroes</h1>
+<h1 class="no-toc">教程: </h1>
 
-The _Tour of Heroes_ tutorial covers the fundamentals of Angular.  
-In this tutorial you will build an app that helps a staffing agency manage its stable of heroes.
+ _本教程_ 基本上覆盖了后台管理的所有操作.  
 
-This basic app has many of the features you'd expect to find in a data-driven application.
-It acquires and displays a list of heroes, edits a selected hero's detail, and navigates among different views of heroic data.
+在此次教程中,您将创建一个新的用户,并使用此用户进行相关操作。
+这个用户将使用新创建的角色,组织,并使用此用户登陆来创建栏目、标签、并使用其栏目标签上传课程。
 
-By the end of the tutorial you will be able to do the following:
+通过这个教程,您将能掌握以下操作:
 
-* Use built-in Angular directives to show and hide elements and display lists of hero data.
-* Create Angular components to display hero details and show an array of heroes.
-* Use one-way data binding for read-only data.
-* Add editable fields to update a model with two-way data binding.
-* Bind component methods to user events, like keystrokes and clicks.
-* Enable users to select a hero from a master list and edit that hero in the details view. 
-* Format data with pipes.
-* Create a shared service to assemble the heroes.
-* Use routing to navigate among different views and their components.
-
-You'll learn enough Angular to get started and gain confidence that
-Angular can do whatever you need it to do. 
-
-After completing all tutorial steps, the final app will look like this <live-example name="toh-pt6"></live-example>.
+* 使用具有`角色管理`-> `创建` 权限的用户来创建一个新的角色
+* 使用具有`组织架构`-> `创建` 权限的用户来创建一个新的组织架构
+* 使用具有`用户管理`-> `创建` 权限的用户来创建一个新的用户
+* 使用具有`用户管理`-> `更新` 权限的用户来修改新用户的密码
+* 使用具有`栏目管理`-> `创建` 权限的用户来创建一个新的栏目
+* 使用具有`课程管理`-> `创建` 权限的用户来创建一个新的课程
 
 
-## What you'll build
+完成所有步骤后,你将获得如下图所示的内容.
 
-Here's a visual idea of where this tutorial leads, beginning with the "Dashboard"
-view and the most heroic heroes:
+
+## 最终内容是什么？
+
+角色的创建:
 
 <figure>
-  <img src='generated/images/guide/toh/heroes-dashboard-1.png' alt="Output of heroes dashboard">
+  <img src='generated/images/guide/toh/CreateRoleFinish.png' width="900px" height="400px" alt="角色">
 </figure>
 
-You can click the two links above the dashboard ("Dashboard" and "Heroes")
-to navigate between this Dashboard view and a Heroes view.
-
-If you click the dashboard hero "Magneta," the router opens a "Hero Details" view
-where you can change the hero's name.
+组织架构的的创建：
 
 <figure>
-  <img src='generated/images/guide/toh/hero-details-1.png' alt="Details of hero in app">
+  <img src='generated/images/guide/toh/CreateOrganizationFinish.png' width="900px" height="400px" alt="组织架构">
 </figure>
 
-Clicking the "Back" button returns you to the Dashboard.
-Links at the top take you to either of the main views.
-If you click "Heroes," the app displays the "Heroes" master list view.
+用户的创建：
 
 
 <figure>
-  <img src='generated/images/guide/toh/heroes-list-2.png' alt="Output of heroes list app">
+  <img src='generated/images/guide/toh/heroes-list-2.png' width="900px" height="400px" alt="创建用户">
 </figure>
 
-When you click a different hero name, the read-only mini detail beneath the list reflects the new choice.
-
-You can click the "View Details" button to drill into the
-editable details of the selected hero.
-
-The following diagram captures all of the navigation options.
+用户信息的修改：
 
 <figure>
-  <img src='generated/images/guide/toh/nav-diagram.png' alt="View navigations">
+  <img src='generated/images/guide/toh/nav-diagram.png' width="900px" height="400px" alt="用户信息修改">
 </figure>
 
-Here's the app in action:
+一个新的栏目：
 
 <figure>
-  <img src='generated/images/guide/toh/toh-anim.gif' alt="Tour of Heroes in Action">
+  <img src='generated/images/guide/toh/toh-anim.gif' width="900px" height="400px" alt="栏目">
+</figure>
+
+一个新的课程：
+
+<figure>
+  <img src='generated/images/guide/toh/nav-diagram.png' width="900px" height="400px" alt="课程">
 </figure>

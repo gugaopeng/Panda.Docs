@@ -8,7 +8,9 @@
   <img src='generated/images/guide/toh/Login.png' width="1030px" height="550px" alt="登陆系统">
 </figure>
 
-## 第一步：点击**管理用户**
+## 第一步：用户用户管理页
+
+点击**管理用户**
 
 <figure>
   <img src='generated/images/guide/toh/ClickManagerUser.png' alt="管理用户">
