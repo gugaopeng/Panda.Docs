@@ -4,7 +4,72 @@
 ## 基本信息的查看
 
 * 进入用户管理页
-* 测试是否
+
+点击左侧菜单中的管理用户,出现所有用户
+
+<figure>
+  <img src='generated/images/guide/toh/ManagerUser.jpg' alt="管理用户">
+</figure>
+
+* 预览用户信息
+
+双击某用户当前行,出现预览信息界面
+
+<figure>
+  <img src='generated/images/guide/toh/ViewUserMessage.png' alt="管理用户">
+</figure>
 
 ## 基本信息的编辑
 
+第一种方式：
+
+在预览界面,点击编辑信息,
+
+<figure>
+  <img src='generated/images/guide/toh/ClickUserEdit.png' alt="管理用户">
+</figure>
+
+进入编辑页面
+
+<figure>
+  <img src='generated/images/guide/toh/EditUserMessage.png' alt="管理用户">
+</figure>
+
+第二种方式：
+
+在某用户的操作列,点击 `...` ,之后点击编辑
+ 
+<figure>
+  <img src='generated/images/guide/toh/OperateEditUser.png' alt="管理用户">
+</figure>
+
+进入编辑页面
+
+<figure>
+  <img src='generated/images/guide/toh/EditUserMessage.png' alt="管理用户">
+</figure>
+
+输入相关信息
+
+必填项(基本信息)
+
+* 类型
+* 用户角色
+* 隶属部门
+
+其余为非必填项
+
+* 讲师信息
+* 联系方式
+* 银行卡信息
+* 家庭住址
+
+<figure>
+  <img src='generated/images/guide/toh/EditMessage.png' alt="管理用户">
+</figure>
+
+点击立即保存
+
+<figure>
+  <img src='generated/images/guide/toh/NowSave.png' alt="管理用户">
+</figure>

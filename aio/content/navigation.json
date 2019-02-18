@@ -207,12 +207,12 @@
             "children": [
                 {
                     "url": "guide/CourseAdd",
-                    "title": "课程的增加",
+                    "title": "创建课程",
                     "tooltip": ""
                 },
                 {
                     "url": "guide/CourseMessage",
-                    "title": "课程信息",
+                    "title": "课程信息设置",
                     "tooltip": ""
                 },
                 {
