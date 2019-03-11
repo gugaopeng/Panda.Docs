@@ -3,53 +3,53 @@
 
 ## 基本信息的查看
 
-* 进入用户管理页
+### 进入用户管理页
 
-点击左侧菜单中的管理用户,出现所有用户
+* 点击左侧菜单中的`管理用户`,出现所有用户
 
 <figure>
-  <img src='generated/images/guide/toh/ManagerUser.jpg' alt="管理用户">
+  <img src='generated/images/guide/toh/ManagerUser.jpg' width="1200px" height="644px"  alt="管理用户">
 </figure>
 
-* 预览用户信息
+### 预览用户信息
 
-双击某用户当前行,出现预览信息界面
+* 双击某用户当前行,出现预览信息界面
 
 <figure>
-  <img src='generated/images/guide/toh/ViewUserMessage.png' alt="管理用户">
+  <img src='generated/images/guide/toh/ViewUserMessage.png' width="1200px" height="644px"  alt="管理用户">
 </figure>
 
 ## 基本信息的编辑
 
-第一种方式：
+### 第一种方式：
 
-在预览界面,点击编辑信息,
-
-<figure>
-  <img src='generated/images/guide/toh/ClickUserEdit.png' alt="管理用户">
-</figure>
-
-进入编辑页面
+* 在预览界面,点击编辑信息,
 
 <figure>
-  <img src='generated/images/guide/toh/EditUserMessage.png' alt="管理用户">
+  <img src='generated/images/guide/toh/ClickUserEdit.png' width="1200px" height="644px" alt="管理用户">
 </figure>
 
-第二种方式：
+* 进入编辑页面
 
-在某用户的操作列,点击 `...` ,之后点击编辑
+<figure>
+  <img src='generated/images/guide/toh/EditUserMessage.png' width="1200px" height="644px" alt="管理用户">
+</figure>
+
+### 第二种方式：
+
+* 在某用户的操作列,点击 `...` ,之后点击编辑
  
 <figure>
-  <img src='generated/images/guide/toh/OperateEditUser.png' alt="管理用户">
+  <img src='generated/images/guide/toh/OperateEditUser.png' width="1200px" height="644px" alt="管理用户">
 </figure>
 
-进入编辑页面
+* 进入编辑页面
 
 <figure>
-  <img src='generated/images/guide/toh/EditUserMessage.png' alt="管理用户">
+  <img src='generated/images/guide/toh/EditUserMessage.png' width="1200px" height="644px" alt="管理用户">
 </figure>
 
-输入相关信息
+### 输入相关信息
 
 必填项(基本信息)
 
@@ -65,11 +65,11 @@
 * 家庭住址
 
 <figure>
-  <img src='generated/images/guide/toh/EditMessage.png' alt="管理用户">
+  <img src='generated/images/guide/toh/EditMessage.png' width="1200px" height="644px" alt="管理用户">
 </figure>
 
-点击立即保存
+**点击`立即保存`**
 
 <figure>
-  <img src='generated/images/guide/toh/NowSave.png' alt="管理用户">
+  <img src='generated/images/guide/toh/NowSave.png' width="1200px" height="644px" alt="管理用户">
 </figure>

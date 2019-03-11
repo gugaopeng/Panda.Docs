@@ -9,5 +9,5 @@
 ## 登陆界面
 
 <figure>
-  <img src='generated/images/guide/toh/Login.png' width="1030px" height="550px" alt="Login Page">
+  <img src='generated/images/guide/toh/Login.png' width="1200px" height="644px" alt="Login Page">
 </figure>

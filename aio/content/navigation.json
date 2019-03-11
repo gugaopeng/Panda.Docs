@@ -185,17 +185,17 @@
                     "tooltip": "栏目管理的简单介绍"
                 },
                 {
-                    "url": "guide/reactive-forms",
+                    "url": "guide/ColumnAdd",
                     "title": "栏目的增加",
                     "tooltip": "如何增加一个栏目？"
                 },
                 {
-                    "url": "guide/forms",
+                    "url": "guide/ColumnUpdate",
                     "title": "栏目的更新",
                     "tooltip": "如何更新当前栏目？"
                 },
                 {
-                    "url": "guide/form-validation",
+                    "url": "guide/ColumnDelete",
                     "title": "栏目的删除",
                     "tooltip": "如何去删除已在的栏目？"
                 }
@@ -249,42 +249,42 @@
         },
         {
             "title": "角色管理篇",
-            "tooltip": "Dependency Injection: creating and injecting services",
+            "tooltip": "",
             "children": [
                 {
-                    "url": "guide/dependency-injection",
+                    "url": "guide/RoleIntroduce",
                     "title": "角色管理介绍",
-                    "tooltip": "Angular's dependency injection system creates and delivers dependent services to Angular-created classes."
+                    "tooltip": ""
                 },
                 {
                     "url": "guide/RoleAdd",
                     "title": "角色的新增",
-                    "tooltip": "An injector tree parallels the component tree and supports nested dependencies."
+                    "tooltip": ""
                 },
                 {
-                    "url": "guide/dependency-injection-providers",
+                    "url": "guide/RoleUpdate",
                     "title": "角色的更新",
-                    "tooltip": "More about the different kinds of providers."
+                    "tooltip": ""
                 },
                 {
-                    "url": "guide/dependency-injection-in-action",
+                    "url": "guide/RoleDelete",
                     "title": "角色的删除",
-                    "tooltip": "Techniques for dependency injection."
+                    "tooltip": ""
                 },
                 {
-                    "url": "guide/dependency-injection-navtree",
+                    "url": "guide/AuthorityUpdate",
                     "title": "角色权限修改",
-                    "tooltip": "Use the injection tree to find parent components."
+                    "tooltip": ""
                 },
                 {
-                    "url": "guide/dependency-injection-navtree",
-                    "title": "角色更新记录",
-                    "tooltip": "Use the injection tree to find parent components."
+                    "url": "guide/RoleOperate",
+                    "title": "角色操作记录",
+                    "tooltip": ""
                 },
                 {
-                    "url": "guide/dependency-injection-navtree",
+                    "url": "guide/RoleRelation",
                     "title": "与角色相关的用户",
-                    "tooltip": "Use the injection tree to find parent components."
+                    "tooltip": ""
                 }
             ]
         },
@@ -292,11 +292,6 @@
             "url": "guide/Tag",
             "title": "标签管理",
             "tooltip": ""
-        },
-        {
-            "url": "guide/Tenement",
-            "title": "租户管理",
-            "tooltip": "Discover the basics of screen navigation with the Angular Router."
         },
         {
             "url": "guide/dictionary",

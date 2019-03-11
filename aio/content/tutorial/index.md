@@ -15,44 +15,42 @@
 * 使用具有`课程管理`-> `创建` 权限的用户来创建一个新的课程
 
 
-完成所有步骤后,你将获得如下图所示的内容.
+## 完成所有步骤后,你将会创建以下内容：
 
-
-## 最终内容是什么？
 
 角色的创建:
 
 <figure>
-  <img src='generated/images/guide/toh/CreateRoleFinish.png' width="900px" height="400px" alt="角色">
+  <img src='generated/images/guide/toh/CreateRoleFinish.png' width="1200px" height="644px" alt="角色">
 </figure>
 
 组织架构的的创建：
 
 <figure>
-  <img src='generated/images/guide/toh/CreateOrganizationFinish.png' width="900px" height="400px" alt="组织架构">
+  <img src='generated/images/guide/toh/CreateOrganizationFinish.png' width="1200px" height="644px" alt="组织架构">
 </figure>
 
 用户的创建：
 
 
 <figure>
-  <img src='generated/images/guide/toh/heroes-list-2.png' width="900px" height="400px" alt="创建用户">
+  <img src='generated/images/guide/toh/heroes-list-2.png' width="1200px" height="644px" alt="创建用户">
 </figure>
 
 用户信息的修改：
 
 <figure>
-  <img src='generated/images/guide/toh/nav-diagram.png' width="900px" height="400px" alt="用户信息修改">
+  <img src='generated/images/guide/toh/nav-diagram.png' width="1200px" height="644px" alt="用户信息修改">
 </figure>
 
-一个新的栏目：
+新的栏目：
 
 <figure>
-  <img src='generated/images/guide/toh/toh-anim.gif' width="900px" height="400px" alt="栏目">
+  <img src='generated/images/guide/toh/toh-anim.gif' width="1200px" height="644px" alt="栏目">
 </figure>
 
-一个新的课程：
+新的课程：
 
 <figure>
-  <img src='generated/images/guide/toh/nav-diagram.png' width="900px" height="400px" alt="课程">
+  <img src='generated/images/guide/toh/nav-diagram.png' width="1200px" height="644px" alt="课程">
 </figure>

@@ -5,26 +5,26 @@
 ***必须使用具有创建组织权限的用户***
 
 <figure>
-  <img src='generated/images/guide/toh/Login.png' width="1030px" height="550px" alt="登陆系统">
+  <img src='generated/images/guide/toh/Login.png' width="1200px" height="644px" alt="登陆系统">
 </figure>
 
 ## 第二步：点击**组织架构**
 
 <figure>
-  <img src='generated/images/guide/toh/ClickOrganization.png' width="900px" alt="点击组织">
+  <img src='generated/images/guide/toh/ClickOrganization.png' width="1200px" alt="点击组织">
 </figure>
 
 
 ## 第三步：点击**新建**
 
 <figure>
-  <img src='generated/images/guide/toh/CreateOrganization.png' width="900px" alt="新建组织">
+  <img src='generated/images/guide/toh/ClickCreateOrganization.png' width="1200px" height="644px" alt="新建组织">
 </figure>
 
 ## 第四步：**添加部门**
 
 <figure>
-  <img src='generated/images/guide/toh/CreateOrganization.png' width="900px" alt="新建组织">
+  <img src='generated/images/guide/toh/CreateOrganization.png' width="1200px" height="644px" alt="新建组织">
 </figure>
 
 
@@ -58,5 +58,5 @@
 ## 完成
 
 <figure>
-  <img src='generated/images/guide/toh/CreateOrganizationFinish.png'  width="900px" height="400px" alt="显示">
+  <img src='generated/images/guide/toh/CreateOrganizationFinish.png'  width="1200px" height="644px"alt="显示">
 </figure>

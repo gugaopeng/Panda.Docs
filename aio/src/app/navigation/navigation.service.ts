@@ -84,7 +84,7 @@ export class NavigationService {
   }
 
   /**
-   * Get an observable of the current nodes (the ones that match the current URL)
+   * Get an observable of the current nodes (the ones that match the  current URL)
    * We use `publishReplay(1)` because otherwise subscribers will have to wait until the next
    * URL change before they receive an emission.
    * See above for discussion of using `connect`.
@@ -92,18 +92,18 @@ export class NavigationService {
   private getCurrentNodes(navigationViews: Observable<NavigationViews>): Observable<CurrentNodes> {
     const currentNodes = combineLatest(
       navigationViews.pipe(
-          map(views => this.computeUrlToNavNodesMap(views))),
-          this.location.currentPath,
-      ).pipe(
-        map((result) => ({navMap: result[0] , url: result[1]})),
-        map((result) => {
+        map(views => this.computeUrlToNavNodesMap(views))),
+      this.location.currentPath,
+    ).pipe(
+      map((result) => ({ navMap: result[0], url: result[1] })),
+      map((result) => {
         const matchSpecialUrls = /^api/.exec(result.url);
         if (matchSpecialUrls) {
-            result.url = matchSpecialUrls[0];
+          result.url = matchSpecialUrls[0];
         }
-        return result.navMap.get(result.url) || { '' : { view: '', url: result.url, nodes: [] }};
-        }),
-        publishReplay(1));
+        return result.navMap.get(result.url) || { '': { view: '', url: result.url, nodes: [] } };
+      }),
+      publishReplay(1));
     (currentNodes as ConnectableObservable<CurrentNodes>).connect();
     return currentNodes;
   }
@@ -129,7 +129,7 @@ export class NavigationService {
   private ensureHasTooltip(node: NavigationNode) {
     const title = node.title;
     const tooltip = node.tooltip;
-    if (tooltip == null && title ) {
+    if (tooltip == null && title) {
       // add period if no trailing punctuation
       node.tooltip = title + (/[a-zA-Z0-9]$/.test(title) ? '.' : '');
     }
@@ -141,23 +141,23 @@ export class NavigationService {
   private walkNodes(
     view: string, navMap: Map<string, CurrentNodes>,
     node: NavigationNode, ancestors: NavigationNode[] = []) {
-      const nodes = [node, ...ancestors];
-      const url = node.url;
-      this.ensureHasTooltip(node);
+    const nodes = [node, ...ancestors];
+    const url = node.url;
+    this.ensureHasTooltip(node);
 
-      // only map to this node if it has a url
-      if (url) {
-        // Strip off trailing slashes from nodes in the navMap - they are not relevant to matching
-        const cleanedUrl = url.replace(/\/$/, '');
-        if (!navMap.has(cleanedUrl)) {
-          navMap.set(cleanedUrl, {});
-        }
-        const navMapItem = navMap.get(cleanedUrl)!;
-        navMapItem[view] = { url, view, nodes };
+    // only map to this node if it has a url
+    if (url) {
+      // Strip off trailing slashes from nodes in the navMap - they are not relevant to matching
+      const cleanedUrl = url.replace(/\/$/, '');
+      if (!navMap.has(cleanedUrl)) {
+        navMap.set(cleanedUrl, {});
       }
-
-      if (node.children) {
-        node.children.forEach(child => this.walkNodes(view, navMap, child, nodes));
-      }
+      const navMapItem = navMap.get(cleanedUrl)!;
+      navMapItem[view] = { url, view, nodes };
     }
+
+    if (node.children) {
+      node.children.forEach(child => this.walkNodes(view, navMap, child, nodes));
+    }
+  }
 }

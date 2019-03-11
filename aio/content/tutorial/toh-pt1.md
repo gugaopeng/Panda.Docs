@@ -10,7 +10,7 @@
 ***必须使用具有创建角色权限的用户***
 
 <figure>
-  <img src='generated/images/guide/toh/Login.png' width="1030px" height="550px" alt="登陆系统">
+  <img src='generated/images/guide/toh/Login.png' width="1200px" height="644px" alt="登陆系统">
 </figure>
 
 ## 第二步：在侧边栏点击**系统设置**
@@ -22,13 +22,13 @@
 ## 第三步： 点击子菜单中的**角色管理**
 
 <figure>
-  <img src='generated/images/guide/toh/RoleManager.png' width="900px" height="400px" alt="角色管理">
+  <img src='generated/images/guide/toh/RoleManager.png' width="1200px" height="644px" alt="角色管理">
 </figure>
 
 ## 第四步： 点击右侧的**创建角色**按钮
 
 <figure>
-  <img src='generated/images/guide/toh/RoleCreate.png' width="900px" height="400px" alt="创建角色">
+  <img src='generated/images/guide/toh/RoleCreate.png' width="1200px" height="644px" alt="创建角色">
 </figure>
 
 
@@ -48,7 +48,7 @@
  ## 点击打开权限栏修改其权限
 
 <figure>
-  <img src='generated/images/guide/toh/AuthorityManager.png' width="900px" height="400px"  alt="点击打开权限栏修改其权限">
+  <img src='generated/images/guide/toh/AuthorityManager.png' width="1200px" height="644px"  alt="点击打开权限栏修改其权限">
 </figure>
 
  ## 修改用户管理权限
