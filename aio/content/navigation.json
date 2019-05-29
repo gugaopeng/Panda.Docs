@@ -1,12 +1,8 @@
 {
     "TopBar": [
         {
-            "url": "features",
-            "title": "特征"
-        },
-        {
             "url": "docs",
-            "title": "管理平台说明文档"
+            "title": "文档中心"
         },
         {
             "url": "resources",
@@ -14,54 +10,18 @@
         },
         {
             "url": "events",
-            "title": "事件"
+            "title": "更新日志"
         },
         {
-            "url": "https://panda-admin-dev.chinacloudsites.cn/",
-            "title": "管理平台"
-        }
-    ],
-    "TopBarNarrow": [
+            "url": "https://www.brokstar.com/",
+            "title": "经纪星球"
+        },
         {
-            "title": "About Angular",
-            "children": [
-                {
-                    "url": "features",
-                    "title": "Features"
-                },
-                {
-                    "url": "resources",
-                    "title": "FAQ 常见问题"
-                },
-                {
-                    "url": "events",
-                    "title": "Events"
-                },
-                {
-                    "url": "https://blog.angular.io/",
-                    "title": "Blog"
-                }
-            ]
+            "url": "https://panda-pc.chinacloudsites.cn/",
+            "title": "博客"
         }
     ],
     "SideNav": [
-        {
-            "url": "docs",
-            "title": "Docs",
-            "tooltip": "Angular Documentation",
-            "hidden": true
-        },
-        {
-            "url": "guide/docs-style-guide",
-            "title": "Doc authors style guide",
-            "tooltip": "Style guide for documentation authors.",
-            "hidden": true
-        },
-        {
-            "url": "guide/quickstart",
-            "title": "后台管理系统架构",
-            "tooltip": "后台管理系统要点简介"
-        },
         {
             "title": "教程",
             "tooltip": "使用后台管理系统执行一些简单的操作",
@@ -104,7 +64,58 @@
             ]
         },
         {
-            "title": "管理用户指南",
+            "title": "课程管理篇",
+            "tooltip": "如何去管理课程?",
+            "children": [
+                {
+                    "url": "guide/Course/Create",
+                    "title": "创建课程",
+                    "tooltip": "如何去创建课程"
+                },
+                {
+                    "url": "guide/Course/Info",
+                    "title": "课程信息设置",
+                    "tooltip": "如何去设置课程信息？"
+                },
+                {
+                    "url": "guide/Course/Recommend",
+                    "title": "课程推荐",
+                    "tooltip": "如何推荐一门课程至首页?"
+                },
+                {
+                    "url": "guide/Course/DefaultPlan",
+                    "title": "默认计划设置",
+                    "tooltip": "默认计划是系统自动创建且生效的课程计划"
+                },
+                {
+                    "url": "guide/Course/WholePlan",
+                    "title": "全部计划",
+                    "tooltip": "在全部计划中,可以根据自己的需要去创建适合自己的计划。"
+                },
+                {
+                    "url": "guide/Course/File",
+                    "title": "课程文件管理",
+                    "tooltip": ""
+                },
+                {
+                    "url": "guide/Course/Questions",
+                    "title": "课程题库管理",
+                    "tooltip": ""
+                },
+                {
+                    "url": "guide/Course/Paper",
+                    "title": "课程试卷管理",
+                    "tooltip": ""
+                },
+                {
+                    "url": "guide/Course/Delete",
+                    "title": "课程的删除",
+                    "tooltip": ""
+                }
+            ]
+        },
+        {
+            "title": "用户管理指南",
             "tooltip": "The basic building blocks of Angular applications.",
             "children": [
                 {
@@ -146,6 +157,78 @@
                     "url": "guide/ViewUserFootPrint",
                     "title": "查看个人足迹",
                     "tooltip": ""
+                }
+            ]
+        },
+        {
+            "title": "资讯管理篇",
+            "tooltip": "如何管理资讯？",
+            "children": [
+                {
+                    "url": "guide/ArticleIntroduce",
+                    "title": "资讯简介",
+                    "tooltip": "资讯简介."
+                },
+                {
+                    "url": "guide/ArticleCreate",
+                    "title": "资讯的新建",
+                    "tooltip": "资讯的新建."
+                },
+                {
+                    "url": "guide/ArticleUpdate",
+                    "title": "资讯编辑",
+                    "tooltip": "资讯编辑."
+                },
+                {
+                    "url": "guide/ArticleDelete",
+                    "title": "资讯删除",
+                    "tooltip": "资讯删除."
+                },
+                {
+                    "url": "guide/ArticleRecommend",
+                    "title": "资讯推荐",
+                    "tooltip": "资讯推荐."
+                },
+                {
+                    "url": "guide/ArticlePublish",
+                    "title": "资讯发布",
+                    "tooltip": "资讯发布."
+                }
+            ]
+        },
+        {
+            "title": "广告管理篇",
+            "tooltip": "如何管理广告？",
+            "children": [
+                {
+                    "url": "guide/AdvertIntroduce",
+                    "title": "广告简介",
+                    "tooltip": "广告简介."
+                },
+                {
+                    "url": "guide/AdvertCreate",
+                    "title": "广告的新建",
+                    "tooltip": "广告的新建."
+                },
+                {
+                    "url": "guide/AdvertUpdate",
+                    "title": "广告编辑",
+                    "tooltip": "广告编辑."
+                },
+                {
+                    "url": "guide/AdvertDelete",
+                    "title": "广告删除",
+                    "tooltip": "广告删除."
+                },
+                {
+                    "url": "guide/AdvertRecommend",
+                    "title": "广告推荐",
+                    "tooltip": "广告推荐."
+                },
+                {
+                    "url": "guide/AdvertPublish",
+                    "title": "广告发布",
+                    "tooltip": "广告发布."
                 }
             ]
         },
@@ -202,52 +285,6 @@
             ]
         },
         {
-            "title": "课程管理篇",
-            "tooltip": "如何去管理课程?",
-            "children": [
-                {
-                    "url": "guide/CourseAdd",
-                    "title": "创建课程",
-                    "tooltip": ""
-                },
-                {
-                    "url": "guide/CourseMessage",
-                    "title": "课程信息设置",
-                    "tooltip": ""
-                },
-                {
-                    "url": "guide/DefaultPlan",
-                    "title": "默认计划设置",
-                    "tooltip": ""
-                },
-                {
-                    "url": "guide/AllPlan",
-                    "title": "全部计划",
-                    "tooltip": ""
-                },
-                {
-                    "url": "guide/CourseFile",
-                    "title": "课程文件",
-                    "tooltip": ""
-                },
-                {
-                    "url": "guide/CourseTestPaper",
-                    "title": "课程试卷",
-                    "tooltip": ""
-                },
-                {
-                    "url": "guide/CourseTestLibrary",
-                    "title": "课程题库",
-                    "tooltip": ""
-                },
-                {
-                    "url": "guide/CourseTestLibrary",
-                    "title": "课程的删除",
-                    "tooltip": ""
-                }
-            ]
-        },
-        {
             "title": "角色管理篇",
             "tooltip": "",
             "children": [
@@ -300,8 +337,8 @@
         },
         {
             "url": "guide/change-log",
-            "title": "Change Log",
-            "tooltip": "Angular Documentation Change Log",
+            "title": "网站更新日志",
+            "tooltip": "经纪星球培训平台更新日志",
             "hidden": false
         },
         {
@@ -318,46 +355,26 @@
     ],
     "Footer": [
         {
-            "title": "Resources",
+            "title": "资源清单",
             "children": [
                 {
                     "url": "about",
-                    "title": "About",
-                    "tooltip": "Angular contributors."
+                    "title": "联系我们",
+                    "tooltip": "介绍."
                 },
                 {
                     "url": "resources",
-                    "title": "Resource Listing",
+                    "title": "常见问题",
                     "tooltip": "Angular tools, training, and blogs from around the web."
-                },
-                {
-                    "url": "presskit",
-                    "title": "Press Kit",
-                    "tooltip": "Press contacts, logos, and branding."
-                },
-                {
-                    "url": "https://blog.angular.io/",
-                    "title": "Blog",
-                    "tooltip": "Angular Blog"
                 }
             ]
         },
         {
-            "title": "Help",
+            "title": "获得帮助",
             "children": [
                 {
-                    "url": "https://stackoverflow.com/questions/tagged/angular",
-                    "title": "Stack Overflow",
-                    "tooltip": "Stack Overflow: where the community answers your technical Angular questions."
-                },
-                {
-                    "url": "https://gitter.im/angular/angular",
-                    "title": "Gitter",
-                    "tooltip": "Chat about Angular with other birds of a feather."
-                },
-                {
                     "url": "https://github.com/angular/angular/issues",
-                    "title": "Report Issues",
+                    "title": "发布问题",
                     "tooltip": "Post issues and suggestions on github."
                 },
                 {
@@ -368,49 +385,22 @@
             ]
         },
         {
-            "title": "Community",
+            "title": "推荐",
             "children": [
                 {
-                    "url": "events",
-                    "title": "Events",
-                    "tooltip": "Post issues and suggestions on github."
+                    "url": "https://panda-pc.chinacloudsites.cn/",
+                    "title": "经纪星球",
+                    "tooltip": "经纪星球从心开始"
                 },
                 {
-                    "url": "http://www.meetup.com/topics/angularjs/",
-                    "title": "Meetups",
-                    "tooltip": "Attend a meetup and learn from fellow developers."
+                    "url": "https://www.fangc21.com/",
+                    "title": "标点网",
+                    "tooltip": "点亮每一个居家梦想"
                 },
                 {
-                    "url": "https://twitter.com/angular",
-                    "title": "Twitter",
+                    "url": "https://www.fangc21.com/",
+                    "title": "房信Erp",
                     "tooltip": "Twitter"
-                },
-                {
-                    "url": "https://github.com/angular/angular",
-                    "title": "GitHub",
-                    "tooltip": "GitHub"
-                },
-                {
-                    "url": "contribute",
-                    "title": "Contribute",
-                    "tooltip": "Contribute to Angular"
-                }
-            ]
-        },
-        {
-            "title": "Languages",
-            "children": [
-                {
-                    "title": "中文版",
-                    "url": "https://angular.cn/"
-                },
-                {
-                    "title": "日本語版",
-                    "url": "https://angular.jp/"
-                },
-                {
-                    "title": "한국어",
-                    "url": "https://angular.kr/"
                 }
             ]
         }
