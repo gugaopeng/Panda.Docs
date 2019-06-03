@@ -19,7 +19,7 @@
     <button mat-button class="hamburger" [class.starting]="isStarting" (click)="sidenav.toggle()" title="显示/关闭侧边栏">
       <mat-icon svgIcon="menu"></mat-icon>
     </button>
-    <a class="nav-link home" href="https://panda-pc.chinacloudsites.cn/" [ngSwitch]="isSideBySide">
+    <a class="nav-link home" href="/" [ngSwitch]="isSideBySide">
       <img *ngSwitchCase="true" src="assets/images/logos/2X-01.png" width="150" height="40" title="Home" alt="Home">
       <img *ngSwitchDefault src="assets/images/logos/1X-01.png" width="37" height="40" title="Home" alt="Home">
     </a>
@@ -80,4 +80,6 @@
   material icons on other pages are displayed correctly in offline mode.
   (Note: Instantiate lazily to avoid affecting the initial rendering.)
 -->
-<mat-icon class="cdk-visually-hidden" *ngIf="!isStarting">&nbsp;</mat-icon>
+<div class="cdk-visually-hidden" *ngIf="!isStarting">
+  <mat-icon>&nbsp;</mat-icon>
+</div>
