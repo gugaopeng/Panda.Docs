@@ -263,24 +263,29 @@
             "tooltip": "如何管理栏目？",
             "children": [
                 {
-                    "url": "guide/ColumnManager",
+                    "url": "guide/Catalog/Manager",
                     "title": "栏目管理简介",
                     "tooltip": "栏目管理的简单介绍"
                 },
                 {
-                    "url": "guide/ColumnAdd",
+                    "url": "guide/Catalog/Add",
                     "title": "栏目的增加",
                     "tooltip": "如何增加一个栏目？"
                 },
                 {
-                    "url": "guide/ColumnUpdate",
+                    "url": "guide/Catalog/Update",
                     "title": "栏目的更新",
                     "tooltip": "如何更新当前栏目？"
                 },
                 {
-                    "url": "guide/ColumnDelete",
+                    "url": "guide/Catalog/Delete",
                     "title": "栏目的删除",
                     "tooltip": "如何去删除已在的栏目？"
+                },
+                {
+                    "url": "guide/Catalog/Priority",
+                    "title": "栏目优先级的作用？",
+                    "tooltip": "通过调整栏目的优先级来控制前台栏目显示的顺序"
                 }
             ]
         },

@@ -25,3 +25,5 @@
 <figure>
 <img src='generated/images/guide/Course/Recommend/Example.png' width="1200px" height="438px" alt="示例">
 </figure>
+
+## 如何取消推荐

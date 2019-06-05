@@ -92,7 +92,7 @@
             "logo": "",
             "rev": true,
             "title": "推荐一门课程",
-            "url": "guid/Course/Recommend"
+            "url": "guide/Course/Recommend"
           }
         }
       },
@@ -145,10 +145,10 @@
         "order": 4,
         "resources": {
           "IgniteUIforAngular": {
-            "desc": "Ignite UI for Angular is a dependency-free Angular toolkit for building modern web apps.",
+            "desc": "",
             "rev": true,
-            "title": "Ignite UI for Angular",
-            "url": "https://www.infragistics.com/products/ignite-ui-angular"
+            "title": "如何控制前台栏目的排列顺序？",
+            "url": "guide/Catalog/Priority"
           }
         }
       },
