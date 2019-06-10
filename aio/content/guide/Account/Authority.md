@@ -7,7 +7,7 @@
 * 进入用户管理页
 
 <figure>
-  <img src='generated/images/guide/toh/ManagerUser.jpg' width="1200px" height="644px" alt="管理页面">
+  <img src='generated/images/guide/toh/UserList.png' width="1200px" height="644px" alt="管理页面">
 </figure>
 
 * 预览
@@ -21,7 +21,7 @@
 * 点击用户权限
 
 <figure>
-  <img src='generated/images/guide/toh/ClickUserAuthority.png'width="1200px" height="644px"  alt="管理用户">
+  <img src='generated/images/guide/toh/ClickUserAuthority.png' width="1200px" height="644px"  alt="管理用户">
 </figure>
 
 
@@ -30,7 +30,7 @@
 * 在用户管理页 
 
 <figure>
-  <img src='generated/images/guide/toh/ManagerUser.jpg' width="1200px" height="644px" alt="管理用户">
+  <img src='generated/images/guide/toh/UserList.png' width="1200px" height="644px" alt="管理用户">
 </figure>
 
 * 在某用户的操作列,点击 `...` 的权限按钮

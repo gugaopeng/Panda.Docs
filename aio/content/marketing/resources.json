@@ -99,11 +99,11 @@
       "用户管理": {
         "order": 3,
         "resources": {
-          "-KLIzHDRfiB3d7W7vk-e": {
-            "desc": "Reactive Extensions for Angular",
+          "accountClose": {
+            "desc": "帐号关闭是什么原因？",
             "rev": true,
-            "title": "ngrx",
-            "url": "http://github.com/ngrx"
+            "title": "您的帐户已经关闭,如有疑问请咨询管理员？",
+            "url": "guide/Account/OpenOrClose"
           }
         }
       },

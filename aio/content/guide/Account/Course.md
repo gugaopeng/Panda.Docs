@@ -5,7 +5,7 @@
 * 点击`**管理用户**`
 
 <figure>
-  <img src='generated/images/guide/toh/ManagerUser.jpg' width="1200px" height="644px" alt="管理用户">
+  <img src='generated/images/guide/toh/ClickManagerUser.jpg' width="1200px" height="644px" alt="管理用户">
 </figure>
 
 ## 预览信息

@@ -116,45 +116,50 @@
         },
         {
             "title": "用户管理指南",
-            "tooltip": "The basic building blocks of Angular applications.",
+            "tooltip": "",
             "children": [
                 {
-                    "url": "guide/HowToManagerUser",
+                    "url": "guide/Account/Regular",
                     "title": "如何管理用户？",
                     "tooltip": "管理用户的技巧及方法"
                 },
                 {
-                    "url": "guide/AddUser",
+                    "url": "guide/Account/Increase",
                     "title": "创建用户",
                     "tooltip": "如何去创建一个用户？"
                 },
                 {
-                    "url": "guide/UpdateUserMessage",
+                    "url": "guide/Account/Redact",
                     "title": "基本信息的查看、编辑",
                     "tooltip": "如何编辑用户信息？"
                 },
                 {
-                    "url": "guide/DeleteUser",
+                    "url": "guide/Account/Omit",
                     "title": "删除用户",
                     "tooltip": "如何删除一位用户？"
                 },
                 {
-                    "url": "guide/UpdateUserAuthority",
+                    "url": "guide/Account/OpenOrClose",
+                    "title": "开启、关闭帐户",
+                    "tooltip": "当帐户被关闭时,就无法登陆网站"
+                },
+                {
+                    "url": "guide/Account/Authority",
                     "title": "更新用户权限",
                     "tooltip": ""
                 },
                 {
-                    "url": "guide/ManagerUserCourse",
+                    "url": "guide/Account/Course",
                     "title": "管理用户课程",
                     "tooltip": ""
                 },
                 {
-                    "url": "guide/ViewCourseProgress",
+                    "url": "guide/Account/CourseProgress",
                     "title": "查看课程进度",
                     "tooltip": ""
                 },
                 {
-                    "url": "guide/ViewUserFootPrint",
+                    "url": "guide/Account/FootPrint",
                     "title": "查看个人足迹",
                     "tooltip": ""
                 }
