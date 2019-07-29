@@ -206,9 +206,14 @@
             "tooltip": "如何管理广告？",
             "children": [
                 {
-                    "url": "guide/AdvertIntroduce",
-                    "title": "广告简介",
-                    "tooltip": "广告简介."
+                    "url": "guide/Advert/FAQ-Banner",
+                    "title": "Banner图",
+                    "tooltip": "如何修改PC的Banner图."
+                },
+                {
+                    "url": "guide/Advert/FAQ-Recommend",
+                    "title": "广告推荐",
+                    "tooltip": "如何为广告加上推荐."
                 },
                 {
                     "url": "guide/AdvertCreate",
@@ -216,24 +221,14 @@
                     "tooltip": "广告的新建."
                 },
                 {
-                    "url": "guide/AdvertUpdate",
-                    "title": "广告编辑",
-                    "tooltip": "广告编辑."
+                    "url": "guide/AdvertPublish",
+                    "title": "广告发布",
+                    "tooltip": "广告发布."
                 },
                 {
                     "url": "guide/AdvertDelete",
                     "title": "广告删除",
                     "tooltip": "广告删除."
-                },
-                {
-                    "url": "guide/AdvertRecommend",
-                    "title": "广告推荐",
-                    "tooltip": "广告推荐."
-                },
-                {
-                    "url": "guide/AdvertPublish",
-                    "title": "广告发布",
-                    "tooltip": "广告发布."
                 }
             ]
         },
@@ -352,7 +347,7 @@
             "hidden": false
         },
         {
-            "title": "CLI Commands",
+            "title": "常见问题",
             "tooltip": "Angular CLI command reference.",
             "children": [
                 {

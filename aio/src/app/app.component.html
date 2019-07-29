@@ -26,14 +26,6 @@
     <aio-top-menu *ngIf="isSideBySide" [nodes]="topMenuNodes"></aio-top-menu>
     <aio-search-box class="search-container" #searchBox (onSearch)="doSearch($event)" (onFocus)="doSearch($event)">
     </aio-search-box>
-    <div class="toolbar-external-icons-container">
-      <a href="https://twitter.com/angular" title="Twitter" aria-label="Angular on twitter">
-        <mat-icon svgIcon="logos:twitter"></mat-icon>
-      </a>
-      <a href="https://github.com/angular/angular" title="GitHub" aria-label="Angular on github">
-        <mat-icon svgIcon="logos:github"></mat-icon>
-      </a>
-    </div>
   </mat-toolbar-row>
 </mat-toolbar>
 
@@ -48,11 +40,6 @@
     <aio-nav-menu *ngIf="!isSideBySide" [nodes]="topMenuNarrowNodes" [currentNode]="currentNodes?.TopBarNarrow"
       [isWide]="false"></aio-nav-menu>
     <aio-nav-menu [nodes]="sideNavNodes" [currentNode]="currentNodes?.SideNav" [isWide]="isSideBySide"></aio-nav-menu>
-
-    <div class="doc-version">
-      <aio-select (change)="onDocVersionChange($event.index)" [options]="docVersions" [selected]="currentDocVersion">
-      </aio-select>
-    </div>
   </mat-sidenav>
 
   <main class="sidenav-content" [id]="pageId" role="main">

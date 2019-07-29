@@ -168,11 +168,12 @@ aio-top-menu {
 
 // SEARCH BOX
 aio-search-box.search-container {
+  margin-right: 83px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
   width: 100%;
-  min-width: 150px;
+  min-width: 200px;
   height: 100%;
 
   input {
