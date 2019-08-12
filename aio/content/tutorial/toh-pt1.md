@@ -1,88 +1,55 @@
-# 创建角色
+# 为第三方合作平台创建相应的帐号
 
-用户扮演角色,每个用户可以拥有多个角色,而每个角色会拥有不同的权限,只有指定的角色才能够做对应的事情.
+[传送门](https:/admin.brokstar.com)管理员登陆后台
 
 
-## 如何去创建一个角色
 
-## 第一步：登陆系统
+## 第一步：创建地区
 
-***必须使用具有创建角色权限的用户***
+***必须使用具有创建用户权限的管理员***
 
 <figure>
-  <img src='generated/images/guide/toh/Login.png' width="1200px" height="644px" alt="登陆系统">
+  <img src='generated/images/Tutorial/Toh-pt1/创建地区.gif' width="1200px" height="644px" alt="创建地区">
 </figure>
 
-## 第二步：在侧边栏点击**系统设置**
+## 第二步：创建租户并关联地区
+
+***必须使用具有创建用户权限的管理员***
 
 <figure>
-  <img src='generated/images/guide/toh/Setting.png' alt="系统设置">
-</figure>
-
-## 第三步： 点击子菜单中的**角色管理**
-
-<figure>
-  <img src='generated/images/guide/toh/RoleManager.png' width="1200px" height="644px" alt="角色管理">
-</figure>
-
-## 第四步： 点击右侧的**创建角色**按钮
-
-<figure>
-  <img src='generated/images/guide/toh/RoleCreate.png' width="1200px" height="644px" alt="创建角色">
+  <img src='generated/images/Tutorial/Toh-pt1/创建租户并绑定地区.gif' width="1200px" height="644px" alt="创建租户关联地区">
 </figure>
 
 
-## 第五步：输入名称,描述选择类型(均为必选项)
+## 第三步：如果没有相应的角色则创建角色,赋予相应的权限（有相应的角色,则跳过此步骤）
+
+***必须使用具有创建更新角色权限的管理员***
 
 <figure>
-  <img src='generated/images/guide/toh/RoleContent.png' alt="选择类型">
+  <img src='generated/images/guide/toh/Login.png' width="1200px" height="644px" alt="创建角色">
 </figure>
 
-## 第六步：点击**提交**,创建角色完成
+## 第四步：创建修改相应的帐户
+
+### 未注册帐户,创建相应帐户
+***必须使用具有创建用户权限的管理员***
 
 <figure>
-  <img src='generated/images/guide/toh/CreateFinish.png' alt="创建角色完成">
+  <img src='generated/images/guide/toh/Login.png' width="1200px" height="644px" alt="创建帐户">
 </figure>
 
-## 为角色赋予相应的权限
- ## 点击打开权限栏修改其权限
+### 已注册帐户,修改相应帐户
+
+***必须使用具有更新用户权限的管理员***
 
 <figure>
-  <img src='generated/images/guide/toh/AuthorityManager.png' width="1200px" height="644px"  alt="点击打开权限栏修改其权限">
+  <img src='generated/images/guide/toh/Login.png' width="1200px" height="644px" alt="修改帐户">
 </figure>
 
- ## 修改用户管理权限
+## 第五步：使用新的帐户登陆,创建组织架构
+
+***必须使用具有更新用户权限的管理员***
 
 <figure>
-  <img src='generated/images/guide/toh/UserAuthorityManager.png' alt="修改用户管理权限">
-</figure>
-
- ## 修改角色管理权限
-
-<figure>
-  <img src='generated/images/guide/toh/RoleAuthorityManager.png' alt="修改角色管理权限">
-</figure>
-
- ## 修改课程管理权限 
-
-<figure>
-  <img src='generated/images/guide/toh/CourseAuthorityManager.png' alt="修改课程管理权限">
-</figure>
-
- ## 修改栏目管理权限 
-
-<figure>
-  <img src='generated/images/guide/toh/ColumnAuthorityManager.png' alt="修改栏目管理权限">
-</figure>
-
- ## 修改组织架构权限 
-
-<figure>
-  <img src='generated/images/guide/toh/OrganizationAuthorityManager.png' alt="修改组织架构权限">
-</figure>
-
- ## 修改权限完成
-
-<figure>
-  <img src='generated/images/guide/toh/UpdateAuthorityFinish.png' alt="修改权限完成">
+  <img src='generated/images/guide/toh/Login.png' width="1200px" height="644px" alt="创建组织架构">
 </figure>

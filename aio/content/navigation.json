@@ -23,8 +23,8 @@
     ],
     "SideNav": [
         {
-            "title": "教程",
-            "tooltip": "使用后台管理系统执行一些简单的操作",
+            "title": "后台基本操作流程介绍",
+            "tooltip": "使用后台管理系统执行一些简单的流程操作",
             "children": [
                 {
                     "url": "tutorial",
@@ -38,13 +38,13 @@
                 },
                 {
                     "url": "tutorial/toh-pt1",
-                    "title": "1. 创建角色",
-                    "tooltip": "Part 1: 如何去创建一个角色"
+                    "title": "1.为第三方合作平台创建相应的帐号",
+                    "tooltip": ""
                 },
                 {
                     "url": "tutorial/toh-pt2",
-                    "title": "2. 创建组织",
-                    "tooltip": "Part 2: 如何去创建一个组织"
+                    "title": "2. 组织的授权码的使用",
+                    "tooltip": ""
                 },
                 {
                     "url": "tutorial/toh-pt3",
